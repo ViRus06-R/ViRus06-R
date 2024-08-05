@@ -1,13 +1,6 @@
 # Necessary imports
 
-from flask import Flask, render_template_string, request
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-import time
-from sympy import false, true
-from twocaptcha import TwoCaptcha
+
 
 # Initialize 2Captcha solver with your API key
 solver = TwoCaptcha('Your api key')
